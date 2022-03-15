@@ -50,6 +50,7 @@ while True:
         elif event.type == pygame.MOUSEBUTTONDOWN:
             mouse_x, mouse_y = pygame.mouse.get_pos()
             # key to start
+
             if not game_active:
                 if img_text.play_button().collidepoint(mouse_x, mouse_y):
                     game_active = 1
